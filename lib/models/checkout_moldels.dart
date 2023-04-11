@@ -6,7 +6,7 @@ class CheckoutModel {
   String imageUrl;
 
   CheckoutModel(
-      {this.title, this.price, this.quantity, this.veg, this.imageUrl});
+      {required this.title, required this.price,   required this.quantity, required this.veg, required this.imageUrl});
 
   factory CheckoutModel.fromJson(Map<String, dynamic> json) {
     // ignore: unnecessary_new
